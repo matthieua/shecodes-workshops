@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>She Codes</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+      }
+
+      h1 {
+        text-decoration: underline;
+        color: #885df1;
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+        color: #272044;
+      }
+
+      img {
+        border-radius: 10px;
+      }
+
+      .day-1 {
+        color: green;
+      }
+
+      .day-2 {
+        color: red;
+      }
+
+      .apply-btn {
+        background-color: #fff;
+        color: #7c52ef;
+        display: block;
+        margin: 20px auto;
+        padding: 20px 20px;
+        text-decoration: none;
+        border: 1px solid #7c52ef;
+        border-radius: 20px;
+        font-size: 16px;
+        box-shadow: 9px 9px 9px #000;
+        transition: all 250ms ease;
+      }
+
+      .apply-btn:hover {
+        color: #fff;
+        background-color: #7c52ef;
+      }
+    </style>
+    <script>
+      let country = prompt("What country are you from?");
+      country = country.toLowerCase();
+
+      if (
+        country === "brazil" ||
+        country === "portugal" ||
+        country === "angola"
+      ) {
+        alert("You speak Portuguese");
+      } else {
+        alert("You can't speak Portuguese");
+      }
+    </script>
+  </head>
+  <body>
+    <h1 class="center">She Codes</h1>
+    <h2>Coding Workshop</h2>
+    <ul>
+      <li><a class="day-1" href="https://shecodes.io/day1"> Day 1 </a></li>
+      <li><a class="day-2" href="https://shecodes.io/day2"> Day 2 </a></li>
+    </ul>
+    <button class="apply-btn">Apply now</button>
+    <hr />
+    <p>
+      <strong> More info </strong>
+      <img
+        src="https://www.usnews.com/dims4/USNEWS/ee0bf4f/2147483647/thumbnail/970x647/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F22%2F24%2F3e7abf684a3395b9bc74c030dd4e%2Fresizes%2F1500%2F160218-coder-stock.jpg"
+        alt="Woman coding"
+      />
+    </p>
+  </body>
+</html>
